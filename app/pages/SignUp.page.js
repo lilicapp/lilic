@@ -5,7 +5,6 @@ import SignUp from '../components/SignUp/SignUp.component';
 
 class SignUpPage extends Component {
   render () {
-    console.log(this.props);
     return (
       <SignUp navigation={this.props.navigation}/>
     );
