@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071025538118",
+    "firebase_url": "https://lilic-9c1c7.firebaseio.com",
+    "project_id": "lilic-9c1c7",
+    "storage_bucket": "lilic-9c1c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071025538118:android:ecc120e7273ccc91",
+        "android_client_info": {
+          "package_name": "com.jsb.lilic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071025538118-06le8b4523bumcblh16hqm84qnv3m1k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlfXdg4ZP1YnFSuwRdxsMy36cMtW07KO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071025538118-06le8b4523bumcblh16hqm84qnv3m1k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
