@@ -4,7 +4,6 @@ import android.support.multidex.MultiDexApplication;
 
 import com.facebook.react.ReactApplication;
 import com.oblador.vectoricons.VectorIconsPackage;
-import io.invertase.firebase.RNFirebasePackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -19,7 +18,6 @@ import io.invertase.firebase.auth.RNFirebaseAuthPackage;
 // import io.invertase.firebase.config.RNFirebaseRemoteConfigPackage;
 import io.invertase.firebase.database.RNFirebaseDatabasePackage;
 // import io.invertase.firebase.fabric.crashlytics.RNFirebaseCrashlyticsPackage;
-import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
 // import io.invertase.firebase.functions.RNFirebaseFunctionsPackage;
 // import io.invertase.firebase.instanceid.RNFirebaseInstanceIdPackage;
 // import io.invertase.firebase.links.RNFirebaseLinksPackage;
@@ -51,9 +49,8 @@ public class MainApplication extends MultiDexApplication implements ReactApplica
         // new RNFirebaseAnalyticsPackage(),
         new RNFirebaseAuthPackage(),
         // new RNFirebaseRemoteConfigPackage(),
-        new RNFirebaseDatabasePackage(),
+        new RNFirebaseDatabasePackage()
         // new RNFirebaseCrashlyticsPackage(),
-        new RNFirebaseFirestorePackage()
         // new RNFirebaseFunctionsPackage(),
         // new RNFirebaseInstanceIdPackage(),
         // new RNFirebaseLinksPackage(),

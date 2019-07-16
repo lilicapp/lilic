@@ -3,7 +3,7 @@ import MainLayout from '../pages/Main.layout';
 import LoginPage from '../pages/Login.page';
 import SignUpPage from '../pages/SignUp.page';
 
-const drawer = createDrawerNavigator({
+const Drawer = createDrawerNavigator({
   home: {
     screen: MainLayout,
     navigationOptions: {
@@ -12,14 +12,20 @@ const drawer = createDrawerNavigator({
   }
 });
 
-drawer.navigationOptions = {
+Drawer.navigationOptions = {
   header: null
 };
 
 const Router = createStackNavigator({
-  Drawer: drawer,
+  Drawer: Drawer,
   Login: LoginPage,
   SignUp: SignUpPage
+}, {
+  defaultNavigationOptions: {
+    headerStyle: {
+      elevation: 0,
+    }
+  }
 });
 
 

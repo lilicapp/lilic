@@ -6,6 +6,8 @@ import {createStackNavigator, createBottomTabNavigator} from 'react-navigation';
 import TabBarIcon from './TabBarIcon';
 
 import HomePage from '../../pages/Home.page';
+import CategoriesPage from '../../pages/Categories.page';
+import ProfilePage from '../../pages/Profile.page';
 
 const HomeStack = createStackNavigator({
   Home: HomePage,
@@ -22,7 +24,7 @@ HomeStack.navigationOptions = {
 };
 
 const CategoriesStack = createStackNavigator({
-  Categories: HomePage,
+  Categories: CategoriesPage,
 });
 
 CategoriesStack.navigationOptions = {
@@ -36,7 +38,7 @@ CategoriesStack.navigationOptions = {
 };
 
 const ShopsStack = createStackNavigator({
-  Settings: HomePage,
+  Shops: HomePage,
 });
 
 ShopsStack.navigationOptions = {
@@ -51,7 +53,7 @@ ShopsStack.navigationOptions = {
 };
 
 const ProfileStack = createStackNavigator({
-  Settings: HomePage,
+  Profile: ProfilePage,
 });
 
 ProfileStack.navigationOptions = {

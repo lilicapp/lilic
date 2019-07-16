@@ -1,17 +1,9 @@
 import {combineReducers} from 'redux';
-import test from './api.reducer';
-import Router from '../../navigation/Drawer';
-
-const router = Router.router;
-const homeNavAction = router.getActionForPathAndParams('home');
-const initialNavState = router.getStateForAction(homeNavAction);
-
-const nav = (state = initialNavState, action) => {
-  const nextState = router.getStateForAction(action, state);
-  return nextState || state;
-};
+import {authReducer} from './auth.reducer';
+import {dataReducer} from './data.reducer';
+// import apiReducer from './api.reducer';
 
 export default combineReducers({
-  test,
-  nav
+  authReducer,
+  dataReducer
 });
